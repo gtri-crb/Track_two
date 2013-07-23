@@ -1,0 +1,25 @@
+﻿Build started 7/23/2013 12:51:45 PM.
+     1>Project "c:\Users\pshenoy7\documents\visual studio 2010\Projects\test\test\test.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\test.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files\Microsoft SDKs\Kinect\v1.7\inc" /IC:\Python27\include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt test.cpp
+         test.cpp
+     1>test.cpp(20): warning C4101: 'pValue' : unreferenced local variable
+     1>test.cpp(21): warning C4101: 'pArgs' : unreferenced local variable
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\pshenoy7\documents\visual studio 2010\Projects\test\Release\test.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\Python27\libs /LIBPATH:"C:\Program Files\Microsoft SDKs\Kinect\v1.7\lib\x86" "C:\Program Files\Microsoft SDKs\Kinect\v1.7\lib\x86\Kinect10.lib" C:\Python27\libs\python27.lib C:\Python27\libs\_bsddb.lib C:\Python27\libs\_ctypes.lib C:\Python27\libs\_ctypes_test.lib C:\Python27\libs\_elementtree.lib C:\Python27\libs\_hashlib.lib C:\Python27\libs\_msi.lib C:\Python27\libs\_multiprocessing.lib C:\Python27\libs\_socket.lib C:\Python27\libs\_sqlite3.lib C:\Python27\libs\_ssl.lib C:\Python27\libs\_testcapi.lib C:\Python27\libs\_tkinter.lib C:\Python27\libs\bz2.lib C:\Python27\libs\pyexpat.lib C:\Python27\libs\select.lib C:\Python27\libs\unicodedata.lib C:\Python27\libs\winsound.lib /MANIFEST /ManifestFile:"Release\test.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\pshenoy7\documents\visual studio 2010\Projects\test\Release\test.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\pshenoy7\documents\visual studio 2010\Projects\test\Release\test.lib" /MACHINE:X86 Release\stdafx.obj
+         Release\test.obj
+         Generating code
+         Finished generating code
+         test.vcxproj -> c:\users\pshenoy7\documents\visual studio 2010\Projects\test\Release\test.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"c:\users\pshenoy7\documents\visual studio 2010\Projects\test\Release\test.exe;#1" /manifest Release\test.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\test.unsuccessfulbuild".
+         Touching "Release\test.lastbuildstate".
+     1>Done Building Project "c:\Users\pshenoy7\documents\visual studio 2010\Projects\test\test\test.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.34

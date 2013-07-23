@@ -1,0 +1,19 @@
+﻿Build started 7/19/2013 1:57:58 PM.
+     1>Project "c:\Users\pshenoy7\documents\visual studio 2010\Projects\test\test\test.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\test.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\Python27\include /I"C:\Program Files\Microsoft SDKs\Kinect\v1.7\inc" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt test.cpp
+         test.cpp
+     1>c:\users\pshenoy7\documents\visual studio 2010\projects\test\test\test.cpp(20): warning C4101: 'pValue' : unreferenced local variable
+     1>c:\users\pshenoy7\documents\visual studio 2010\projects\test\test\test.cpp(21): warning C4101: 'pArgs' : unreferenced local variable
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\pshenoy7\documents\visual studio 2010\Projects\test\Debug\test.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\Python27\libs /LIBPATH:"C:\Program Files\Microsoft SDKs\Kinect\v1.7\lib\x86" "C:\Program Files\Microsoft SDKs\Kinect\v1.7\lib\x86\Kinect10.lib" C:\Python27\libs\python27.lib C:\Python27\libs\_bsddb.lib C:\Python27\libs\_ctypes.lib C:\Python27\libs\_ctypes_test.lib C:\Python27\libs\_elementtree.lib C:\Python27\libs\_hashlib.lib C:\Python27\libs\_msi.lib C:\Python27\libs\_multiprocessing.lib C:\Python27\libs\_socket.lib C:\Python27\libs\_sqlite3.lib C:\Python27\libs\_ssl.lib C:\Python27\libs\_testcapi.lib C:\Python27\libs\_tkinter.lib C:\Python27\libs\bz2.lib C:\Python27\libs\pyexpat.lib C:\Python27\libs\select.lib C:\Python27\libs\unicodedata.lib C:\Python27\libs\winsound.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\test.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\pshenoy7\documents\visual studio 2010\Projects\test\Debug\test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\pshenoy7\documents\visual studio 2010\Projects\test\Debug\test.lib" /MACHINE:X86 Debug\stdafx.obj
+         Debug\test.obj
+     1>stdafx.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+     1>LINK : fatal error LNK1104: cannot open file 'python27_d.lib'
+     1>Done Building Project "c:\Users\pshenoy7\documents\visual studio 2010\Projects\test\test\test.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.50
